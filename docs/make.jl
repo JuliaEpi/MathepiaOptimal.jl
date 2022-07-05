@@ -6,19 +6,19 @@ DocMeta.setdocmeta!(MathepiaOptimal, :DocTestSetup, :(using MathepiaOptimal); re
 makedocs(;
     modules=[MathepiaOptimal],
     authors="Pengfei Song",
-    repo="https://github.com/Song921012/MathepiaOptimal.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/Mathepia/MathepiaOptimal.jl/blob/{commit}{path}#{line}",
     sitename="MathepiaOptimal.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://Song921012.github.io/MathepiaOptimal.jl",
-        assets=String[],
+        canonical="https://Mathepia.github.io/MathepiaOptimal.jl",
+        assets=String[]
     ),
     pages=[
         "Home" => "index.md",
-    ],
+    ]
 )
 
 deploydocs(;
-    repo="github.com/Song921012/MathepiaOptimal.jl",
-    devbranch="main",
+    repo="github.com/Mathepia/MathepiaOptimal.jl",
+    devbranch="main"
 )
