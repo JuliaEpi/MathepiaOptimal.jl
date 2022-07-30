@@ -4,7 +4,7 @@ CurrentModule = MathepiaOptimal
 
 # MathepiaOptimal
 
-Documentation for [MathepiaOptimal](https://github.com/Mathepia/MathepiaOptimal.jl).
+Documentation for [MathepiaOptimal](https://github.com/JuliaEpi/MathepiaOptimal.jl).
 
 ```@index
 ```
